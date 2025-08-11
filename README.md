@@ -53,7 +53,7 @@ Manage all your forms, track submissions, and edit existing forms effortlessly.
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/formgenie.git
+git clone https://github.com/henokhackz//form_genie.git
 DATABASE_URL=your_database_url_here
 CLERK_FRONTEND_API=your_clerk_frontend_api
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_key
