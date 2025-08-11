@@ -54,4 +54,14 @@ Manage all your forms, track submissions, and edit existing forms effortlessly.
 
 ```bash
 git clone https://github.com/yourusername/formgenie.git
+DATABASE_URL=your_database_url_here
+CLERK_FRONTEND_API=your_clerk_frontend_api
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_key
+AI_API_KEY=your_ai_service_key
+
+Run database migrations:
+yarn prisma migrate deploy
+
+Start the development server:
+npm run dev
 cd formgenie
